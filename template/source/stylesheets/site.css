@@ -1,0 +1,26 @@
+/* -----------------------------------------------------------------------------------------------*/
+/* IMPORTS                                                                                        */
+
+@import 'normalize.css';
+@import 'components/_base';
+@import 'utilities/_base';
+
+/* -----------------------------------------------------------------------------------------------*/
+/* VARIABLES                                                                                      */
+
+:root {
+  --gray-0: #f8f9fa;
+  --blue-5: #339af0;
+  --green-1: #d3f9d8;
+}
+
+/* -----------------------------------------------------------------------------------------------*/
+/* RESET                                                                                          */
+
+body {
+  background-color: var(--gray-0);
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI",
+    "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans",
+    "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans",
+    sans-serif;
+}
