@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var postcss = require('gulp-postcss');
 var postcssImport = require('postcss-import');
 var cssnext = require('postcss-cssnext');
-var cssnano = require('cssnano')
+var cssnano = require('cssnano');
 
 gulp.task('css', function() {
   return gulp.src('source/stylesheets/site.css')
