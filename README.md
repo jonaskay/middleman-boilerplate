@@ -23,37 +23,18 @@ Default Middleman Project Template](https://github.com/middleman/middleman-templ
 * [Ruby](https://www.ruby-lang.org/en/)
 * [Bundler](http://bundler.io/)
 * [Node.js](https://nodejs.org/en/)
+* [Yarn](https://yarnpkg.com/lang/en/)
 * [gulp-cli](https://gulpjs.com/)
 
 ### Start a New Project
 
 Start a new Middleman project using this template:
 
-`$ middleman init mysite -T jonaskay/middleman-boilerplate`
+    $ middleman init mysite -T jonaskay/middleman-boilerplate
 
 Change into the project root:
 
-`$ cd mysite`
-
-Install dependencies:
-
-```
-# Using npm
-$ npm install
-
-# Using Yarn
-$ yarn install
-```
-
-## Useful Commands
-
-Run the development server:
-
-`bundle exec middleman server`
-
-Build your site:
-
-`bundle exec middleman build`
+    $ cd mysite
 
 ## Acknowledgements
 
