@@ -7,13 +7,13 @@ Default Middleman Project Template](https://github.com/middleman/middleman-templ
 
 ### Additional tooling
 
-* [Middleman-Livereload](https://github.com/middleman/middleman-livereload) to add LiveReload support
+* [Middleman-Livereload](https://github.com/middleman/middleman-livereload) for LiveReload support
 * [gulp](https://gulpjs.com/) for automating build tasks
 * [PostCSS](https://postcss.org/)
   * [postcss-import](https://github.com/postcss/postcss-import) for `@import` rules
   * [cssnext](http://cssnext.io/) for the latest CSS syntax support
-  * [cssnano](https://cssnano.co/) to compress CSS
-* [Normalize.css](https://necolas.github.io/normalize.css/) for CSS resetting
+  * [cssnano](https://cssnano.co/) for CSS compression
+* [Normalize.css](https://necolas.github.io/normalize.css/) for CSS resets
 
 ## Getting Started
 
