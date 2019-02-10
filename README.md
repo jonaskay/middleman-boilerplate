@@ -1,9 +1,19 @@
-# Middleman + Gulp
+# Middleman Boilerplate
 
 ## About
 
-This is a [Middleman](https://middlemanapp.com/) project template using [gulp](https://gulpjs.com/) with Middleman's `external_pipeline` feature. This template is based on the [
+This is a [Middleman](https://middlemanapp.com/) project template using [gulp](https://gulpjs.com/) and [PostCSS](https://postcss.org/) with Middleman's `external_pipeline` feature. This template is based on the [
 Default Middleman Project Template](https://github.com/middleman/middleman-templates-default), but it's built to support my workflow and my preferred tooling.
+
+### Additional tooling
+
+* [Middleman-Livereload](https://github.com/middleman/middleman-livereload) to add LiveReload support
+* [gulp](https://gulpjs.com/) for automating build tasks
+* [PostCSS](https://postcss.org/)
+  * [postcss-import](https://github.com/postcss/postcss-import) for `@import` rules
+  * [cssnext](http://cssnext.io/) for the latest CSS syntax support
+  * [cssnano](https://cssnano.co/) to compress CSS
+* [Normalize.css](https://necolas.github.io/normalize.css/) for CSS resetting
 
 ## Getting Started
 
@@ -19,7 +29,7 @@ Default Middleman Project Template](https://github.com/middleman/middleman-templ
 
 Start a new Middleman project using this template:
 
-`$ middleman init mysite -T jonaskay/middleman-gulp`
+`$ middleman init mysite -T jonaskay/middleman-boilerplate`
 
 Change into the project root:
 
