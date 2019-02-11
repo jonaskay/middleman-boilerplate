@@ -2,8 +2,7 @@
 
 ## About
 
-This is a [Middleman](https://middlemanapp.com/) project template using [gulp](https://gulpjs.com/) and [PostCSS](https://postcss.org/) with Middleman's `external_pipeline` feature. This template is based on the [
-Default Middleman Project Template](https://github.com/middleman/middleman-templates-default), but it's built to support my workflow and my preferred tooling.
+This is a [Middleman](https://middlemanapp.com/) project template using [gulp](https://gulpjs.com/), [PostCSS](https://postcss.org/), and [Tailwind CSS](https://tailwindcss.com/docs/what-is-tailwind/) with Middleman's `external_pipeline` feature. This template is based on the [Default Middleman Project Template](https://github.com/middleman/middleman-templates-default), but it's built to support my workflow and preferred tooling.
 
 ### Additional tooling
 
@@ -13,7 +12,7 @@ Default Middleman Project Template](https://github.com/middleman/middleman-templ
   * [postcss-import](https://github.com/postcss/postcss-import) for `@import` rules
   * [cssnext](http://cssnext.io/) for the latest CSS syntax support
   * [cssnano](https://cssnano.co/) for CSS compression
-* [Normalize.css](https://necolas.github.io/normalize.css/) for CSS resets
+* [Tailwind CSS](https://tailwindcss.com/docs/what-is-tailwind/)
 
 ## Getting Started
 

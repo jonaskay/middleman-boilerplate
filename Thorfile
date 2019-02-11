@@ -18,5 +18,10 @@ module Middleman
     def run_yarn_install
       run 'yarn install'
     end
+
+    def initialize_tailwind_config
+      run 'yarn tailwind init tailwind.js'
+      run 'git add tailwind.js'
+    end
   end
 end
